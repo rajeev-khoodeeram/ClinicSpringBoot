@@ -16,3 +16,26 @@ th {
 tr:hover {
   background-color: #502828;
 }
+
+.add-doctor {
+  margin: 20px 0;
+  text-align: left;
+}
+
+button {
+  width: 80px;       /* same width for all buttons */
+  padding: 6px 10px; /* keeps height consistent */
+  margin: 2px;       /* space between buttons */
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button.edit {
+  background-color: #4CAF50; /* green */
+  color: white;
+}
+
+button.delete {
+  background-color: #f44336; /* red */
+  color: white;
+}
