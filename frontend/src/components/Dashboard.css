@@ -1,0 +1,18 @@
+.dashboard-icons {
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+    padding: 100px;
+}
+
+.icon {
+    text-align: center;
+    margin: 0 60px;
+}
+
+.icon img {
+    width: 100px;
+    height: 100px;
+}
